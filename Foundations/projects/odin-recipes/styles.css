@@ -1,0 +1,20 @@
+.header {
+    background-color: rgb(210, 217, 228);
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.recipes {
+    background-color: rgb(185, 197, 216);
+    border: 10px solid rgb(95, 109, 136);
+    width: 300px;
+    padding: 32px;
+    margin: auto;
+}
+
+.sections {
+    background-color: rgb(210, 217, 228);
+    padding: 20px;
+    margin: 8px;
+}

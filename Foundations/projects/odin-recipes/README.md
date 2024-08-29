@@ -4,4 +4,4 @@ HTML website that displays recipes to choose from, complete with options for ent
 
 ## Purpose
 
-Putting the HTML skills I've learned so far in this course into practice, utilizing lists, links, and images to build a basic website with HTML.
+Putting the skills I've learned so far in this course into practice, utilizing lists, links, and images to build a basic website with HTML & CSS.
