@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 35%;
+    border: 2px solid black;
+    aspect-ratio: 1;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+h1 {
+    margin: 24px 0 0;
+}
+
+.options {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    margin: 0;
+}
+
+.change-grid {
+    height: 24px;
+}
+
+div.clear {
+    display: flex;
+    justify-content: center;
+}
+
+button.clear {
+    font-size: 24px;
+    width: 128px;
+    height: 48px;
+    margin-top: 16px;
+}
