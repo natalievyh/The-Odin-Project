@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(53, 61, 81);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 464px;
+    height: 564px;
+    background-color: rgb(36, 40, 47);
+    margin: 32px auto;
+    border-radius: 32px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.display {
+    width: 90%;
+    height: 128px;
+    border-radius: 16px;
+    background-color: beige;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 24px;
+}
+
+.input {
+    font-size: 72px;
+}
+
+.buttons {
+    width: 90%;
+    height: 68%;
+    border-radius: 16px;
+    background-color: rgb(30, 32, 41);
+    padding: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 96px;
+    height: 64px;
+    background-color: rgb(229, 229, 216);
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.zero {
+    width: 192px;
+}
+
+.equal {
+    background-color: rgb(169, 186, 211);
+}
+
+.operators {
+    background-color: rgb(184, 181, 171);
+}
