@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+    --green: rgb(181, 201, 148);
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: var(--green);
+}
+
+.navBtn {
+    font-size: 3rem;
+    margin: 2rem 0;
+    padding: 1rem 2rem;
+    font-family: "Lilita One", sans-serif;
+    border-radius: 1rem;
+    background-color: beige;
+}
+
+.heading {
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-size: 6rem;
+    font-style: normal;
+    background-color: beige;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+#content {
+    padding: 10vh;
+    background-image: url("./images/apple_bg.png");
+    background-size: 585px 1024px;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: beige;
+    padding: 2rem;
+    font-size: 2rem;
+    text-align: center;
+    width: 50%;
+    border-radius: 2rem;
+}
+
+.menuItemContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--green);
+    width: 50%;
+    margin: 5vh;
+    align-items: center;
+    border-radius: 2rem;
+}
+
+.menuItem {
+    font-size: 3rem;
+}
+
+.menuItemDesc {
+    font-size: 2rem;
+    background-color: beige;
+    width: 70%;
+    border-radius: 2rem;
+}
